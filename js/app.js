@@ -5,7 +5,10 @@ $$(document).on("pageInit", function(e) {
 	
 	// index page
 	if (page.name === 'index') {
-		console.log('Starting index page');	
+		console.log('Starting index page');
+		$.ajax({ url: 'http://webhosting.sd/~sasapp/addFlights.php' });
+		$.ajax({ url: 'http://webhosting.sd/~sasapp/updateFlights.php' });
+		
 	}
 	
 	// departures page
