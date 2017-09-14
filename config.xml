@@ -28,7 +28,7 @@
 	  <param name="wp-package" value="SocialSharing"/>
 	</feature>
 
-	<plugin name="nl.xservices.plugins.SocialSharing" source="npm" />
+	<plugin name="nl.xservices.plugins.SocialSharing" />
 	<plugin name="cordova-plugin-whitelist" source="npm" />
 	<plugin name="cordova-plugin-splashscreen" source="npm" />
 	<splash src="splash.png" />
